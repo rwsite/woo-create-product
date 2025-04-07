@@ -156,7 +156,7 @@ function wc_get_product_object_type( $args ){
         $product = new WC_Product_Simple(); // "simple" By default
     }
 
-    if( $product instanceof \WC_Product) {
+    if( $product instanceof WC_Product) {
        // console_log(__FUNCTION__ . 'be end success!' . $product);
        return $product;
     } else {
